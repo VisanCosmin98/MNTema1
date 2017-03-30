@@ -3,7 +3,7 @@ function x = morse_decode(sir)
 arbore=morse();
 n=1;
 while(n<=length(sir))
-  if(n>=4)
+  if(n>4)
     x='*';
     break
   endif
